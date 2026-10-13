@@ -4,6 +4,6 @@ Presentación del taller **NEA Tech × Stellar**. Una hora: para qué sirve una 
 
 ### Diapositivas
 
-Abrir [`presentacion`](index.html) en el navegador.
+Abrir [`presentacion`](https://0xdariosanchez.github.io/NEA-Tech-Workshop/) en el navegador.
 
 Navegar con las flechas del teclado `← →`.
