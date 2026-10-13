@@ -327,7 +327,7 @@
   <div id="stage"></div>
   <div class="arrows left" onclick="go(-1)"></div>
   <div class="arrows right" onclick="go(1)"></div>
-  <div class="navhint">← / → para avanzar</div>
+  <div class="navhint">← / → para navegar</div>
   <div class="counter"><span class="now" id="cnow">01</span> / <span id="ctotal">00</span></div>
 </div>
 
@@ -348,8 +348,8 @@ slide(`
 `);
 
 slide(`
-  <div class="eyebrow">La hora</div>
-  <h2 class="title">Ocho paradas.</h2>
+  <div class="eyebrow">La sesión</div>
+  <h2 class="title">Ocho temas.</h2>
   <div class="agenda">
     <div class="item"><div class="n">01</div><div class="t">Para qué sirve una blockchain</div></div>
     <div class="item"><div class="n">02</div><div class="t">El entorno de desarrollo</div></div>
@@ -357,72 +357,72 @@ slide(`
     <div class="item"><div class="n">04</div><div class="t">Soroban, lo esencial</div></div>
     <div class="item"><div class="n">05</div><div class="t">Construir con IA</div></div>
     <div class="item"><div class="n">06</div><div class="t">Stellar Expert</div></div>
-    <div class="item"><div class="n">07</div><div class="t">Checklist del hackathon</div></div>
+    <div class="item"><div class="n">07</div><div class="t">Lista de verificación</div></div>
     <div class="item"><div class="n">08</div><div class="t">Stellar Apex</div></div>
   </div>
 `);
 
 slide(`
   <div class="eyebrow">01 · Para qué sirve</div>
-  <h2 class="title">¿Esto va en una blockchain?</h2>
+  <h2 class="title">¿Corresponde una blockchain?</h2>
   <div class="rowset">
     <div class="ledger-card">
       <div class="name">Varias partes</div>
-      <div class="desc">No se confían entre sí, y ninguna quiere ser el único dueño del registro.</div>
+      <div class="desc">No se confían entre sí y ninguna desea ser la única titular del registro.</div>
     </div>
     <div class="ledger-card">
-      <div class="name">Hay valor</div>
-      <div class="desc">Algo que mover o representar: un pago, un activo, un derecho.</div>
+      <div class="name">Existe valor</div>
+      <div class="desc">Un elemento que transferir o representar: un pago, un activo, un derecho.</div>
     </div>
     <div class="ledger-card">
       <div class="name">Hay que verificar</div>
-      <div class="desc">Alguien, después, tiene que poder mirar qué pasó sin pedirle permiso a nadie.</div>
+      <div class="desc">Un tercero debe poder consultar lo ocurrido sin requerir autorización.</div>
     </div>
   </div>
 `);
 
 slide(`
   <div class="eyebrow">01 · Para qué sirve</div>
-  <h2 class="title">Una base de datos alcanza.</h2>
+  <h2 class="title">Una base de datos es suficiente.</h2>
   <div class="rowset two">
     <div class="ledger-card">
-      <div class="name">Un solo dueño</div>
-      <div class="desc">Una empresa, una app, un equipo. No hace falta un registro compartido.</div>
+      <div class="name">Un único titular</div>
+      <div class="desc">Una empresa, una aplicación, un equipo. No se requiere un registro compartido.</div>
     </div>
     <div class="ledger-card">
       <div class="name">Datos privados</div>
-      <div class="desc">Si no se pueden mostrar, no los pongas en una red pública.</div>
+      <div class="desc">Si no pueden publicarse, no deben registrarse en una red pública.</div>
     </div>
     <div class="ledger-card">
-      <div class="name">Se corrige</div>
-      <div class="desc">Si hay que borrar o editar, una blockchain es la herramienta equivocada.</div>
+      <div class="name">Se modifica</div>
+      <div class="desc">Si es necesario eliminar o editar, una blockchain no es la herramienta adecuada.</div>
     </div>
     <div class="ledger-card">
-      <div class="name">No hay valor compartido</div>
-      <div class="desc">Un CRUD interno no se vuelve mejor porque firme una transacción.</div>
+      <div class="name">Sin valor compartido</div>
+      <div class="desc">Un CRUD interno no mejora por el hecho de firmar una transacción.</div>
     </div>
   </div>
 `);
 
 slide(`
   <div class="eyebrow">01 · Para qué sirve</div>
-  <h2 class="title">La idea del hackathon.</h2>
+  <h2 class="title">El enfoque del hackathon.</h2>
   <div class="keytakes">
-    <div class="kt"><div class="n">01</div><div class="t">Un problema concreto. <span>Alguien lo tiene esta semana.</span></div></div>
-    <div class="kt"><div class="n">02</div><div class="t">Una pieza que ya existe. <span>Wallet, asset, ancla, DEX. No la reescriban.</span></div></div>
-    <div class="kt"><div class="n">03</div><div class="t">Una demo en testnet. <span>Si no entra en dos minutos, el alcance está grande.</span></div></div>
+    <div class="kt"><div class="n">01</div><div class="t">Un problema concreto. <span>Alguien lo enfrenta en este momento.</span></div></div>
+    <div class="kt"><div class="n">02</div><div class="t">Un componente existente. <span>Wallet, asset, ancla, DEX. No es necesario reescribirlo.</span></div></div>
+    <div class="kt"><div class="n">03</div><div class="t">Una demostración en testnet. <span>Si no cabe en dos minutos, el alcance es excesivo.</span></div></div>
   </div>
 `);
 
 slide(`
   <div class="eyebrow">02 · El entorno</div>
-  <h2 class="title">Lo que tiene que estar instalado.</h2>
+  <h2 class="title">Componentes requeridos.</h2>
   <div class="agenda labels">
     <div class="item"><div class="n">Rust</div><div class="t">El lenguaje de los contratos.</div></div>
-    <div class="item"><div class="n">CLI</div><div class="t">Cuentas, deploy e invoke.</div></div>
-    <div class="item"><div class="n">Node</div><div class="t">El frontend del starter.</div></div>
-    <div class="item"><div class="n">Docker</div><div class="t">Lo pide Scaffold para correr.</div></div>
-    <div class="item"><div class="n">Testnet</div><div class="t">Donde se prueba el taller.</div></div>
+    <div class="item"><div class="n">CLI</div><div class="t">Cuentas, despliegue e invocación.</div></div>
+    <div class="item"><div class="n">Node</div><div class="t">El frontend de la plantilla.</div></div>
+    <div class="item"><div class="n">Docker</div><div class="t">Requerido por Scaffold para su ejecución.</div></div>
+    <div class="item"><div class="n">Testnet</div><div class="t">Entorno de pruebas del taller.</div></div>
   </div>
   <div class="linkrow">
     <a class="link" href="https://developers.stellar.org/docs/tools/cli/install-cli" target="_blank" rel="noopener">CLI → <span>install</span></a>
@@ -432,14 +432,14 @@ slide(`
 slide(`
   <div class="eyebrow">02 · El entorno</div>
   <h2 class="title">Testnet.</h2>
-  <p class="lede">Ahí se prueba. <a class="accent" href="https://friendbot.stellar.org" target="_blank" rel="noopener" style="text-decoration:none;">Friendbot ↗</a> entrega XLM de prueba.</p>
-  <div class="callout">En el taller no se toca mainnet.</div>
+  <p class="lede">Allí se realizan las pruebas. <a class="accent" href="https://friendbot.stellar.org" target="_blank" rel="noopener" style="text-decoration:none;">Friendbot ↗</a> proporciona XLM de prueba.</p>
+  <div class="callout">En el taller no se utiliza mainnet.</div>
 `);
 
 slide(`
   <div class="eyebrow magenta">03 · Scaffold</div>
-  <h2 class="title">El starter.</h2>
-  <p class="lede">Docker tiene que estar corriendo. Después, dos comandos.</p>
+  <h2 class="title">La plantilla inicial.</h2>
+  <p class="lede">Docker debe estar en ejecución. A continuación, dos comandos.</p>
   <div class="codebox">stellar scaffold init mi-proyecto
 cd mi-proyecto
 npm start</div>
@@ -450,22 +450,22 @@ npm start</div>
 
 slide(`
   <div class="eyebrow magenta">03 · Scaffold</div>
-  <h2 class="title">Qué generó.</h2>
+  <h2 class="title">Componentes generados.</h2>
   <div class="rowset two">
     <div class="ledger-card">
       <div class="name">El contrato</div>
-      <div class="desc">Rust, en la carpeta de contratos. Ahí vive la lógica que se despliega.</div>
+      <div class="desc">Rust, en la carpeta de contratos. Allí reside la lógica que se despliega.</div>
     </div>
     <div class="ledger-card">
       <div class="name">El frontend</div>
-      <div class="desc">La app que arma la transacción y le muestra el resultado a la persona.</div>
+      <div class="desc">La aplicación que construye la transacción y muestra el resultado al usuario.</div>
     </div>
   </div>
 `);
 
 slide(`
   <div class="eyebrow magenta">03 · Scaffold</div>
-  <h2 class="title">De punta a punta.</h2>
+  <h2 class="title">De extremo a extremo.</h2>
   <div class="flowchart">
     <div class="fbox">UI</div>
     <div class="farrow">↓</div>
@@ -478,28 +478,28 @@ slide(`
 `);
 
 slide(`
-  <div class="eyebrow gold">04 · Antes de codear</div>
-  <h2 class="title">Cinco cosas.</h2>
+  <div class="eyebrow gold">04 · Antes de programar</div>
+  <h2 class="title">Cinco criterios.</h2>
   <div class="keytakes">
-    <div class="kt"><div class="n">01</div><div class="t">Costos de recursos. <span>Cada instrucción se mide y se paga.</span></div></div>
-    <div class="kt"><div class="n">02</div><div class="t">Storage. <span>Instance, persistent, temporary. Y el TTL.</span></div></div>
-    <div class="kt"><div class="n">03</div><div class="t">Autorización. <span>Quién puede llamar esta función.</span></div></div>
-    <div class="kt"><div class="n">04</div><div class="t">Eventos. <span>Lo que el frontend puede escuchar.</span></div></div>
-    <div class="kt"><div class="n">05</div><div class="t">Tests. <span class="mono accent-g">cargo test</span> <span>antes del deploy.</span></div></div>
+    <div class="kt"><div class="n">01</div><div class="t">Costo de recursos. <span>Cada instrucción se mide y tiene un costo.</span></div></div>
+    <div class="kt"><div class="n">02</div><div class="t">Almacenamiento. <span>Instance, persistent, temporary. Y el TTL.</span></div></div>
+    <div class="kt"><div class="n">03</div><div class="t">Autorización. <span>Quién puede invocar esta función.</span></div></div>
+    <div class="kt"><div class="n">04</div><div class="t">Eventos. <span>Lo que el frontend puede observar.</span></div></div>
+    <div class="kt"><div class="n">05</div><div class="t">Pruebas. <span class="mono accent-g">cargo test</span> <span>antes del despliegue.</span></div></div>
   </div>
 `);
 
 slide(`
   <div class="eyebrow gold">05 · Construir con IA</div>
-  <h2 class="title">Primero el contexto.</h2>
+  <h2 class="title">En primer lugar, el contexto.</h2>
   <div class="rowset two">
     <div class="ledger-card">
       <div class="name"><a href="https://skills.stellar.org/" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">Stellar Skills ↗</a></div>
-      <div class="desc">El conocimiento que el agente ya tiene cargado antes de escribir.</div>
+      <div class="desc">El conocimiento disponible para el agente antes de generar código.</div>
     </div>
     <div class="ledger-card">
       <div class="name"><a href="https://raven.stellar.buzz/" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">Raven ↗</a></div>
-      <div class="desc">Consulta docs y datos del ecosistema en vivo.</div>
+      <div class="desc">Consulta la documentación y los datos del ecosistema en tiempo real.</div>
     </div>
   </div>
   <div class="linkrow">
@@ -509,21 +509,21 @@ slide(`
 
 slide(`
   <div class="eyebrow gold">05 · Construir con IA</div>
-  <h2 class="title">Una feature. Después revisar.</h2>
+  <h2 class="title">Una funcionalidad. Luego, revisar.</h2>
   <div class="keytakes">
-    <div class="kt"><div class="n">01</div><div class="t">Pedir una sola cosa.</div></div>
-    <div class="kt"><div class="n">02</div><div class="t">Leer el diff.</div></div>
-    <div class="kt"><div class="n">03</div><div class="t">Correr el test.</div></div>
+    <div class="kt"><div class="n">01</div><div class="t">Solicitar un único cambio.</div></div>
+    <div class="kt"><div class="n">02</div><div class="t">Revisar los cambios.</div></div>
+    <div class="kt"><div class="n">03</div><div class="t">Ejecutar la prueba.</div></div>
   </div>
-  <div class="callout">No deployar lo que no se entendió.</div>
+  <div class="callout">No desplegar lo que no se haya comprendido.</div>
 `);
 
 slide(`
   <div class="eyebrow">06 · Stellar Expert</div>
-  <h2 class="title">La transacción es la prueba.</h2>
+  <h2 class="title">La transacción es la evidencia.</h2>
   <div class="rowset">
-    <div class="ledger-card"><div class="name">El hash</div><div class="desc">La transacción que realmente se envió.</div></div>
-    <div class="ledger-card"><div class="name">El contrato</div><div class="desc">El id que quedó desplegado en testnet.</div></div>
+    <div class="ledger-card"><div class="name">El hash</div><div class="desc">La transacción que se envió.</div></div>
+    <div class="ledger-card"><div class="name">El contrato</div><div class="desc">El identificador desplegado en testnet.</div></div>
     <div class="ledger-card"><div class="name">Qué se ejecutó</div><div class="desc">La operación, el resultado y los eventos.</div></div>
   </div>
   <div class="linkrow">
@@ -532,13 +532,13 @@ slide(`
 `);
 
 slide(`
-  <div class="eyebrow magenta">07 · Checklist</div>
-  <h2 class="title">Antes de subir al escenario.</h2>
+  <div class="eyebrow magenta">07 · Lista de verificación</div>
+  <h2 class="title">Antes de la presentación.</h2>
   <div class="keytakes">
-    <div class="kt"><div class="n">01</div><div class="t">Alcance chico. <span>Una feature que se pueda mostrar.</span></div></div>
-    <div class="kt"><div class="n">02</div><div class="t">Un test. <span>Y una transacción en testnet.</span></div></div>
-    <div class="kt"><div class="n">03</div><div class="t">Una demo de dos minutos. <span>El camino feliz, ensayado.</span></div></div>
-    <div class="kt"><div class="n">04</div><div class="t">Los links de la documentación. <span>A mano, no de memoria.</span></div></div>
+    <div class="kt"><div class="n">01</div><div class="t">Alcance acotado. <span>Una funcionalidad que pueda demostrarse.</span></div></div>
+    <div class="kt"><div class="n">02</div><div class="t">Una prueba. <span>Y una transacción en testnet.</span></div></div>
+    <div class="kt"><div class="n">03</div><div class="t">Una demostración de dos minutos. <span>El flujo principal, ensayado.</span></div></div>
+    <div class="kt"><div class="n">04</div><div class="t">Los enlaces de la documentación. <span>A disposición, sin depender de la memoria.</span></div></div>
   </div>
   <div class="linkrow">
     <a class="link" href="https://developers.stellar.org/docs" target="_blank" rel="noopener">Docs → <span>developers.stellar.org</span></a>
@@ -548,8 +548,8 @@ slide(`
 
 slide(`
   <div class="eyebrow gold">08 · Stellar Apex</div>
-  <h2 class="title">El proyecto se sube ahí.</h2>
-  <p class="lede">Abrimos el sitio y miramos dónde queda la entrega.</p>
+  <h2 class="title">El proyecto se entrega allí.</h2>
+  <p class="lede">Se abre el sitio y se identifica el lugar de la entrega.</p>
   <div class="linkrow">
     <a class="link" href="https://stellarapex.org/" target="_blank" rel="noopener">Sitio → <span>stellarapex.org</span></a>
   </div>
@@ -557,11 +557,11 @@ slide(`
 
 slide(`
   <div class="eyebrow">Cierre</div>
-  <h2 class="title">Si se llevan tres cosas</h2>
+  <h2 class="title">Tres ideas para recordar</h2>
   <div class="keytakes">
-    <div class="kt"><div class="n">01</div><div class="t">Si no hay valor compartido ni algo que verificar, usen una base de datos.</div></div>
-    <div class="kt"><div class="n">02</div><div class="t">Scaffold, testnet, y un test antes de la demo.</div></div>
-    <div class="kt"><div class="n">03</div><div class="t">Si usan IA, revisen el diff y la transacción en Stellar Expert.</div></div>
+    <div class="kt"><div class="n">01</div><div class="t">Si no existe valor compartido ni un hecho que verificar, utilicen una base de datos.</div></div>
+    <div class="kt"><div class="n">02</div><div class="t">Scaffold, testnet y una prueba antes de la demostración.</div></div>
+    <div class="kt"><div class="n">03</div><div class="t">Si se utiliza IA, revisen los cambios y la transacción en Stellar Expert.</div></div>
   </div>
   <div class="speaker">
     <div class="name">Gracias.</div>

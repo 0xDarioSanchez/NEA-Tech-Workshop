@@ -1,9 +1,9 @@
 # Construir en Stellar
 
-Presentación del taller **NEA Tech × Stellar**. Una hora: para qué sirve una blockchain, el entorno, Scaffold, Soroban, IA, Stellar Expert, el checklist y Stellar Apex.
+Presentación del taller **NEA Tech × Stellar**. Una hora: para qué sirve una blockchain, el entorno, Scaffold, Soroban, IA, Stellar Expert, la lista de verificación y Stellar Apex.
 
-### Slides
+### Diapositivas
 
-Abrí [`index.html`](index.html) en el navegador.
+Abra [`index.html`](index.html) en el navegador.
 
-Se navega con las flechas del teclado `← →`.
+La navegación se realiza con las flechas del teclado `← →`.
