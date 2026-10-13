@@ -4,6 +4,6 @@ Presentación del taller **NEA Tech × Stellar**. Una hora: para qué sirve una 
 
 ### Diapositivas
 
-Abra [`index.html`](index.html) en el navegador.
+Abrir [`presentacion`](index.html) en el navegador.
 
-La navegación se realiza con las flechas del teclado `← →`.
+Navegar con las flechas del teclado `← →`.
